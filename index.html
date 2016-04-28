@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title> Setup Responsive Page</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     <!-- Start Header -->
     <header id="home">
 
-        <div class="container text-center">
+        <div class="container text-center vertical-align">
             <h1 class="logo"> The <strong>Setup</strong></h1>
             <h3>Responsive, one page, HTML5 Bootstrap theme. <br>Created by <strong> Jaimee Williams</strong>.</h3>
             <a href="#about" class="learn-more">
@@ -54,77 +54,82 @@
     </section>
 
     <!-- start services-->
-    <section id="services">
-        <!--section Heading-->
-        <div class="section-heading text-center">
-            <h3 class="text-uppercase">Our <strong>Services</strong></h3>
-            <hr class="icon">
+    <div class="section-heading text-center">
+        <h3 class="text-uppercase">Our <strong>services</strong></h3>
+        <hr class="icon">
+    </div>
 
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12 services-item">
-                    <header>
-                        <i class="fa fa-cubes"></i>
-                        <div class="service-title">
-                            <h3>Web Design</h3>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit, similique in dolor quasi natus a voluptatibus harum porro. Assumenda, consequuntur delectus eaque vel obcaecati! Consequuntur sequi maiores veritatis, hic.</h4>
-                        </div>
-                    </header>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 services-item">
-                    <header>
-                        <i class="fa fa-cubes"></i>
-                        <div class="service-title">
-                            <h3>Web Design</h3>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit, similique in dolor quasi natus a voluptatibus harum porro. Assumenda, consequuntur delectus eaque vel obcaecati! Consequuntur sequi maiores veritatis, hic.</h4>
-                        </div>
-                    </header>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 services-item">
-                    <header>
-                        <i class="fa fa-cubes"></i>
-                        <div class="service-title">
-                            <h3>Web Design</h3>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit, similique in dolor quasi natus a voluptatibus harum porro. Assumenda, consequuntur delectus eaque vel obcaecati! Consequuntur sequi maiores veritatis, hic.</h4>
-                        </div>
-                    </header>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 services-item">
-                    <header>
-                        <i class="fa fa-cubes"></i>
-                        <div class="service-title">
-                            <h3>Web Design</h3>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit, similique in dolor quasi natus a voluptatibus harum porro. Assumenda, consequuntur delectus eaque vel obcaecati! Consequuntur sequi maiores veritatis, hic.</h4>
-                        </div>
-                    </header>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 services-item">
-                    <header>
-                        <i class="fa fa-cubes"></i>
-                        <div class="service-title">
-                            <h3>Web Design</h3>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit, similique in dolor quasi natus a voluptatibus harum porro. Assumenda, consequuntur delectus eaque vel obcaecati! Consequuntur sequi maiores veritatis, hic.</h4>
-                        </div>
-                    </header>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 services-item">
-                    <header>
-                        <i class="fa fa-cubes"></i>
-                        <div class="service-title">
-                            <h3>Web Design</h3>
-                            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit, similique in dolor quasi natus a voluptatibus harum porro. Assumenda, consequuntur delectus eaque vel obcaecati! Consequuntur sequi maiores veritatis, hic.</h4>
-                        </div>
-                    </header>
-                </div>
+    <div class="container">
+        <div class="row">
 
-
+            <div class="col-md-4 col-sm-6 col-xs-12 service-item wow fadeIn" data-wow-offset="400">
+                <header>
+                    <i class="fa fa-desktop"></i>
+                    <div class="service-title">
+                        <h3>Web Design</h3>
+                        <h4>Donec finibus fringilla purus</h4>
+                    </div>
+                </header>
+                <p>Cum socis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec finibus fringilla purus. Integer libero justo.</p>
             </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 service-item wow fadeIn" data-wow-offset="400" data-wow-delay="0.3s">
+                <header>
+                    <i class="fa fa-code"></i>
+                    <div class="service-title">
+                        <h3>Web Development</h3>
+                        <h4>Donec finibus fringilla purus</h4>
+                    </div>
+                </header>
+                <p>Cum socis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec finibus fringilla purus. Integer libero justo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 service-item wow fadeIn" data-wow-offset="400" data-wow-delay="0.6s">
+                <header>
+                    <i class="fa fa-paint-brush"></i>
+                    <div class="service-title">
+                        <h3>Illustration</h3>
+                        <h4>Donec finibus fringilla purus</h4>
+                    </div>
+                </header>
+                <p>Cum socis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec finibus fringilla purus. Integer libero justo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 service-item wow fadeIn" data-wow-offset="200" data-wow-delay="0.7s">
+                <header>
+                    <i class="fa fa-cubes"></i>
+                    <div class="service-title">
+                        <h3>3D Design</h3>
+                        <h4>Donec finibus fringilla purus</h4>
+                    </div>
+                </header>
+                <p>Cum socis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec finibus fringilla purus. Integer libero justo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 service-item wow fadeIn" data-wow-offset="200" data-wow-delay="0.8s">
+                <header>
+                    <i class="fa fa-wordpress"></i>
+                    <div class="service-title">
+                        <h3>Wordperss Experts</h3>
+                        <h4>Donec finibus fringilla purus</h4>
+                    </div>
+                </header>
+                <p>Cum socis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec finibus fringilla purus. Integer libero justo.</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 service-item wow fadeIn" data-wow-offset="200" data-wow-delay="0.9s">
+                <header>
+                    <i class="fa fa-css3"></i>
+                    <div class="service-title">
+                        <h3>CSS3 Masters</h3>
+                        <h4>Donec finibus fringilla purus</h4>
+                    </div>
+                </header>
+                <p>Cum socis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec finibus fringilla purus. Integer libero justo.</p>
+            </div>
+
         </div>
+    </div>
+
     </section>
     <!-- Start Our Skills-->
 
-    <section id="services">
+    <section id="skills">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
@@ -198,7 +203,9 @@
                     <div class="portfolio-thumb">
                         <img src="images/portfolio-img1.png" class="img-responsive" alt="image">
                         <div class="portfolio-overlay">
-                            <h2>Project One</h2>
+                            <div class="vertical-align">
+                                <h2>Project One</h2>
+                            </div>
                             <a href="#">
                                 <i class="fa fa-search"></i>
                             </a>
@@ -283,28 +290,28 @@
         </div>
 
     </section>
-    <section id="stats">
+    <section id="stat">
         <div class="container-fluid">
             <div class="row">
                 <div class="stat col-md-3 col-md-6 col-xs-12 codes text-center">
-                    <i class="fa fa-code"></i>
-                    <h2><strong>24,231</strong></h2>
-                    <h4>Code Lines</h4>
+                    <div class="vertical-align"><i class="fa fa-code"></i>
+                        <h2><strong>24,231</strong></h2>
+                        <h4>Code Lines</h4></div>
                 </div>
                 <div class="stat col-md-3 col-md-6 col-xs-12 projects text-center">
-                    <i class="fa fa-code"></i>
-                    <h2><strong>530</strong></h2>
-                    <h4>Completed Projects</h4>
+                    <div class="vertical-align"> <i class="fa fa-file-o"></i>
+                        <h2><strong>530</strong></h2>
+                        <h4>Completed Projects</h4></div>
                 </div>
                 <div class="stat col-md-3 col-md-6 col-xs-12 clients text-center">
-                    <i class="fa fa-code"></i>
-                    <h2><strong>45</strong></h2>
-                    <h4>Happy Clients</h4>
+                    <div class="vertical-align"> <i class="fa fa-users"></i>
+                        <h2><strong>45</strong></h2>
+                        <h4>Happy Clients</h4></div>
                 </div>
                 <div class="stat col-md-3 col-md-6 col-xs-12 feedback text-center">
-                    <i class="fa fa-code"></i>
-                    <h2><strong>98%</strong></h2>
-                    <h4>Postive Feedback</h4>
+                    <div class="vertical-align"> <i class="fa fa-thumbs-o-up"></i>
+                        <h2><strong>98%</strong></h2>
+                        <h4>Postive Feedback</h4></div>
                 </div>
 
             </div>
